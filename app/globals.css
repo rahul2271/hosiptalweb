@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 118px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  background-color: #f4eedd;
+  color: #152e50;
+}
+
+::selection {
+  background: #e0a03a;
+  color: #152e50;
+}
+
+:focus-visible {
+  outline: 2px solid #e0a03a;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.card-shadow {
+  box-shadow: 0 10px 30px -14px rgba(21, 46, 80, 0.18);
+}
+
+.input {
+  width: 100%;
+  border-radius: 0.4rem;
+  border: 1px solid #e4dcc8;
+  background-color: #fff;
+  padding: 0.6rem 0.8rem;
+  font-size: 0.88rem;
+  color: #152e50;
+}
+.input::placeholder {
+  color: #a9a08a;
+}
+.input:focus {
+  outline: none;
+  border-color: #e0a03a;
+}
+
+.caret {
+  transition: transform 0.25s ease;
+}
+details[open] > summary .caret {
+  transform: rotate(180deg);
+}
+
+/* small decorative leaf shapes used near the footer, echoing the source page */
+.leaf-deco {
+  position: absolute;
+  border-radius: 999px 0 999px 0;
+  background: #6e9c7d;
+  opacity: 0.5;
+}
