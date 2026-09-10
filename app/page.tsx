@@ -26,7 +26,7 @@ export default function Home() {
         <FAQ />
       </main>
       <Newsletter />
-      {/* <Footer /> */}
+      <Footer />
       <FloatingContact />
     </>
   );
