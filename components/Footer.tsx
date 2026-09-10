@@ -29,7 +29,7 @@ export default function Footer() {
     <footer className="relative bg-cream overflow-hidden">
    
 
-        <p className="mt-8 text-[0.72rem] text-muted leading-relaxed max-w-3xl">
+        <p className="mt-8 text-[0.72rem] text-muted leading-relaxed max-w-3xl text-center mx-auto px-5 sm:px-8">
           Disclaimers: These statements have not been evaluated by the Food
           and Drug Administration. Yukti Herbs products are not intended to
           diagnose, treat, cure, or prevent any disease. The information on
