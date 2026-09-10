@@ -85,7 +85,7 @@ export default function Hero() {
             <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight drop-shadow-md">
               Ayurvedic Consultation &amp; Personalized Care for <br />
               <span className="text-[#d0b35e] bg-gradient-to-r from-amber-200 to-yellow-400 bg-clip-text text-transparent">
-                Chronic Pain
+                Pain Relief &amp; Wellness
               </span>
             </h1>
             <p className="text-base md:text-xl text-gray-200 max-w-2xl font-light leading-relaxed">
