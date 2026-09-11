@@ -30,11 +30,7 @@ export default function Footer() {
    
 
         <p className="mt-8 text-[0.72rem] text-muted leading-relaxed max-w-3xl text-center mx-auto px-5 sm:px-8">
-          Disclaimers: These statements have not been evaluated by the Food
-          and Drug Administration. Yukti Herbs products are not intended to
-          diagnose, treat, cure, or prevent any disease. The information on
-          this website is for educational purposes only and is not a
-          substitute for medical advice, diagnosis, or treatment.
+          Disclaimer: The content on this website is for educational purposes under AYUSH guidelines and does not replace professional medical advice. Consultations and treatments provided at our facility are tailored to individual patient needs by registered practitioners, and results may vary. For any medical concerns, always consult a qualified healthcare provider directly. This is not for emergency medical care.
         </p>
 
         <p className="mt-5 text-center text-xs text-muted">
