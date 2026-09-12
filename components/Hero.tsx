@@ -212,7 +212,7 @@ export default function Hero() {
                     disabled={status === "submitting"}
                     className="mt-4 w-full rounded-xl bg-gradient-to-r from-amber-500 to-yellow-500 py-3.5 font-bold text-base md:text-lg text-brandBlue hover:from-amber-600 hover:to-yellow-600 transition duration-300 transform active:scale-[0.99] shadow-lg shadow-amber-500/20 cursor-pointer flex items-center justify-center gap-2 disabled:opacity-60"
                   >
-                    {status === "submitting" ? "Securing Spot..." : "Book Consultation – ₹300"}
+                    {status === "submitting" ? "Securing Spot..." : "Book Consultation"}
                   </button>
 
                   <div className="flex items-center justify-center gap-2 mt-3.5 text-[11px] text-gray-400 font-medium">
