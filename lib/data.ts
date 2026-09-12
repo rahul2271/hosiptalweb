@@ -110,10 +110,10 @@ export const faqs = [
 ];
 
 export const contact = {
- phonePrimary: "+91 1111111111",
-   phoneSecondary: "+91 1111111111",
-  phoneHref: "+911111111111",
-  whatsapp: "https://wa.me/911111111111",
+ phonePrimary: "+91 828-801-4048",
+   phoneSecondary: "+91 828-801-4048",
+  phoneHref: "+918288014048",
+  whatsapp: "https://wa.me/918288014048",
   email: "yuktiherbs@gmail.com",
   address: "Plot No. 956, Sector 82, JLPL Industrial Area, Sahibzada Ajit Singh Nagar, Punjab 140306",
   hours: "10:00 AM – 7:00 PM IST, all days",
