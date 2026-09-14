@@ -110,8 +110,8 @@ export const faqs = [
 ];
 
 export const contact = {
- phonePrimary: "+91 752-786-9388",
-   phoneSecondary: "+91 752-786-9388",
+ phonePrimary: "+91 7527869388",
+   phoneSecondary: "+91 7527869388",
   phoneHref: "+917527869388",
   whatsapp: "https://wa.me/917527869388",
   email: "yuktiherbs@gmail.com",
